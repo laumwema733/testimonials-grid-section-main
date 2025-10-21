@@ -129,6 +129,7 @@ html {
 .card__paragraphes p:first-child {
   font-size: 1.6rem;
   margin-bottom: 1.2rem;
+  font-weight: bold;
 }
 .testimonial {
   font-size: 1.4rem;
