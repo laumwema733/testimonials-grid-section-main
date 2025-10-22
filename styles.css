@@ -27,7 +27,7 @@ html {
 
 .cards {
   display: grid;
-  max-width: 140rem;
+  max-width: 120rem;
   margin: 10rem auto;
   margin-bottom: 0;
   gap: 32px;
@@ -133,13 +133,13 @@ html {
   font-size: 1.2rem;
 }
 .card__paragraphes {
-  line-height: 1.6;
+  line-height: 1.4;
   letter-spacing: 0.8px;
 }
 
 .testimonial {
   font-size: 1.4rem;
-  line-height: 1.8;
+  line-height: 1.4;
 }
 
 .card__three .profile {
