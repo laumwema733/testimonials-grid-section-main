@@ -107,11 +107,11 @@ html {
 .card__four .profile img {
   border: 3px solid var(--pink-color);
 }
-.card__four .testimonial,
+/* .card__four .testimonial,
 .card__two .card__paragraphes .testimonial {
   font-family: 'Alumni Sans', sans-serif;
   font-weight: bold;
-}
+} */
 
 .profile {
   display: flex;
@@ -151,13 +151,13 @@ footer {
 }
 
 /* media queres */
-@media (max-width: 40rem) {
+
+@media (max-width: 800px) {
   .cards {
     display: flex;
     flex-direction: column;
   }
   .card {
-    margin-bottom: 4rem;
     display: flex;
     flex-direction: column;
     gap: 3.2rem;
@@ -168,11 +168,11 @@ footer {
   .card__one--paragraph {
     font-weight: bold;
   }
-  .big--quote {
-    display: none;
-  }
+
   .cards {
     margin-top: 4rem;
   }
+  .big--quote {
+    display: none;
+  }
 }
-
