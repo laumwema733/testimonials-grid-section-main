@@ -27,8 +27,9 @@ html {
 
 .cards {
   display: grid;
-  max-width: 1400px;
-  margin: 20rem auto;
+  max-width: 140rem;
+  margin: 10rem auto;
+  margin-bottom: 0;
   gap: 32px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -143,6 +144,9 @@ html {
 
 .card__three .profile {
   color: hsl(224, 10%, 45%);
+}
+footer {
+  padding-block: 2rem;
 }
 
 /* media queres */
