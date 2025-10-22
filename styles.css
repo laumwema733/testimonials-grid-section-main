@@ -83,6 +83,13 @@ html {
 .card__paragraphes p:first-child {
   font-weight: bold;
   color: var(--first-paragraph-color);
+  font-size: 1.6rem;
+  margin-bottom: 1.2rem;
+  font-weight: bold;
+}
+.card__five .card__paragraphes p:first-child,
+.card__three .card__paragraphes p:first-child {
+  color: hsl(224, 10%, 45%);
 }
 /* card-4 */
 .card__four {
@@ -90,7 +97,6 @@ html {
   background-color: hsl(219, 29%, 14%);
   color: #93979e;
 }
-
 
 .card__four .testimonial,
 .card__four .profile__details {
@@ -129,15 +135,7 @@ html {
   line-height: 1.6;
   letter-spacing: 0.8px;
 }
-.card__paragraphes p:first-child {
-  font-size: 1.6rem;
-  margin-bottom: 1.2rem;
-  font-weight: bold;
-}
-.card__five .card__paragraphes p:first-child,
-.card__three .card__paragraphes p:first-child {
-  color: hsl(224, 10%, 45%);
-}
+
 .testimonial {
   font-size: 1.4rem;
   line-height: 1.8;
