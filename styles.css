@@ -28,7 +28,7 @@ html {
 .cards {
   display: grid;
   max-width: 120rem;
-  margin: 10rem auto;
+  margin: 20rem auto;
   margin-bottom: 0;
   gap: 3.2rem;
 
@@ -172,7 +172,5 @@ footer {
   .cards {
     margin-top: 4rem;
   }
-  .big--quote {
-    display: none;
-  }
+
 }
